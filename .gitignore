@@ -1,1 +1,3 @@
-felix
+*.out
+*.log
+*.aux
