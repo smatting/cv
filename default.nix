@@ -7,7 +7,8 @@ stdenv.mkDerivation rec {
   buildInputs = [
     rubber
     (texlive.combine {
-      inherit (texlive) collection-latexrecommended collection-latexextra xetex;
+      inherit (texlive) collection-latexrecommended collection-latexextra xetex collection-fontsrecommended;
+
     })
   ];
 
